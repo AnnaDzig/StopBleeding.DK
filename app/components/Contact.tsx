@@ -1,7 +1,7 @@
-const Contact: React.FC = () => {
+export default function Contact() {
   return (
-    <section className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-lg">
-      <h2 className="text-2xl font-bold text-gray-800">Kontakt os</h2>
+    <section className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-lg text-center">
+      <h2 className="text-2xl font-bold">Kontakt os</h2>
       <form
         action="https://formspree.io/f/your-form-id"
         method="POST"
@@ -27,12 +27,10 @@ const Contact: React.FC = () => {
           required></textarea>
         <button
           type="submit"
-          className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+          className="bg-accent text-white px-4 py-2 rounded hover:bg-red-600">
           Send
         </button>
       </form>
     </section>
   );
-};
-
-export default Contact;
+}
