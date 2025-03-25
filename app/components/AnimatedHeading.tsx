@@ -11,7 +11,7 @@ export default function AnimatedHeading({ text }: AnimatedHeadingProps) {
     <div className="flex items-center gap-4">
       {/* Red Line */}
       <motion.div
-        className="w-16 h-1 bg-red-500"
+        className="w-16 h-1 bg-[#BE2D37]"
         initial={{ x: "-100%", width: 0 }}
         animate={{ x: 0, width: "4rem" }}
         transition={{ duration: 1, ease: "easeOut" }}

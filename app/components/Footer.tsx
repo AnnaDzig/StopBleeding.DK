@@ -1,10 +1,16 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  faFacebook,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white py-12">
+    <footer className="bg-[#34495E] text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           {/* Left Section - Logo & Description */}
@@ -19,7 +25,7 @@ export default function Footer() {
               Dedikeret til at øge bevidstheden om hjælp ved akutte
               blødningssituationer
             </p>
-            <div className="mt-4 w-12 h-[2px] bg-red-500"></div>
+            <div className="mt-4 w-12 h-[2px] bg-[#BE2D37]"></div>
           </div>
 
           {/* Middle Section - Quick Links */}
@@ -35,8 +41,8 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="flex items-center text-gray-300 hover:text-red-500 transition">
-                    <span className="text-red-500 mr-2">›</span>
+                    className="flex items-center text-gray-300 hover:text-bg-[#BE2D37] transition">
+                    <span className="text-bg-[#BE2D37] mr-2">›</span>
                     {link.name}
                   </Link>
                 </li>
@@ -65,17 +71,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section - Copyright & Social Media */}
-        <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between">
-          <p className="text-gray-400 text-sm">
-            Copyright © 2024. All rights reserved.
-          </p>
+        <div className="flex justify-between">
+          <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between">
+            <p className="text-gray-400 text-sm">
+              Copyright © 2024. All rights reserved.
+            </p>
 
-          {/* Social Media Icons */}
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            {[
-              { href: "#", icon: "/linkedin-icon.png", alt: "LinkedIn" },
-              { href: "#", icon: "/facebook-icon.png", alt: "Facebook" },
-              { href: "#", icon: "/youtube-icon.png", alt: "YouTube" },
+            {/* Social Media Icons */}
+
+            {/* {[
+              { href: "#", icon: "/svg/linkedin.svg", alt: "LinkedIn" },
+              { href: "#", icon: "/svg/facebook.svg", alt: "Facebook" },
+              { href: "#", icon: "/svg/youtube.svg", alt: "YouTube" },
             ].map((social) => (
               <Link key={social.alt} href={social.href}>
                 <Image
@@ -85,7 +92,12 @@ export default function Footer() {
                   height={24}
                 />
               </Link>
-            ))}
+            ))} */}
+          </div>
+          <div className="flex items-end gap-5">
+            <FontAwesomeIcon icon={faLinkedin} className="text-white w-5 h-5" />
+            <FontAwesomeIcon icon={faFacebook} className="text-white w-5 h-5" />
+            <FontAwesomeIcon icon={faYoutube} className="text-white w-5 h-5" />
           </div>
         </div>
       </div>

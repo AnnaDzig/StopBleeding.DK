@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MissionSection from "@/components/MissionSection";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import MissionVisionSection from "@/components/MissionVisionSection";
 import ServicesSection from "@/components/ServicesSection";

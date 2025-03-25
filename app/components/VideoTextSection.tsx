@@ -36,7 +36,7 @@ export default function VideoTextSection({
 
       {/* Video Section */}
       <motion.div
-        className="w-full lg:w-1/2 bg-red-600 p-6 rounded-lg flex items-center justify-center"
+        className="w-full lg:w-1/2 bg-[#BE2D37] p-6 rounded-lg flex items-center justify-center"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, amount: 0.3 }}

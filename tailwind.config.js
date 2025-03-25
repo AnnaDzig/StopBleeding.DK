@@ -8,13 +8,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "var(--font-poppins), sans-serif",
+        poppins: ["var(--font-poppins)", "sans-serif"],
       },
       colors: {
         primary: "#BE2D37", // Red
         secondary: "#34495E", // Dark Blue
         lightGray: "#ECF0F1", // Light Gray
         white: "#FFFFFF", // Pure White
+        background: "var(--background)",
+        foreground: "var(--foreground)",
       },
     },
   },

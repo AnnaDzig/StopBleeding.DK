@@ -3,7 +3,7 @@ import CoreValueCard from "@/components/CoreValueCard";
 export default function CoreValuesSection() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-12">
-      <h2 className="text-xl md:text-2xl font-bold text-red-600 mb-6">
+      <h2 className="text-xl md:text-2xl font-bold text-[#BE2D37] mb-6">
         STOP BLØDNING DANMARKS KERNEVÆRDIER ER:
       </h2>
 

@@ -27,7 +27,7 @@ export default function Contact() {
           required></textarea>
         <button
           type="submit"
-          className="bg-accent text-white px-4 py-2 rounded hover:bg-red-600">
+          className="bg-accent text-white px-4 py-2 rounded hover:bg-[#BE2D37]">
           Send
         </button>
       </form>

@@ -3,7 +3,7 @@ import ContactCard from "@/components/ContactCard";
 
 export default function ContactSection() {
   return (
-    <section className="bg-red-600 text-white py-16">
+    <section className="bg-[#BE2D37] text-white py-16">
       <div className="max-w-7xl mx-auto text-center">
         {/* Title */}
         <h2 className="text-4xl font-bold">Vores kontakter.</h2>
@@ -29,7 +29,7 @@ export default function ContactSection() {
           />
 
           {/* Vertical Divider */}
-          <div className="hidden md:block w-px bg-gray-300 h-20"></div>
+          <div className="hidden md:block w-px bg-[#BE2D37] h-20"></div>
 
           {/* Send Message */}
           <ContactCard

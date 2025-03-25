@@ -20,7 +20,7 @@ export default function Hero() {
           blødningssituationer
         </p>
         <div className="flex items-center justify-center mt-6">
-          <button className="bg-red-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-red-600">
+          <button className="bg-[#BE2D37] text-white px-6 py-3 rounded-lg text-lg hover:bg-red-600">
             Hvem er vi?
           </button>
         </div>

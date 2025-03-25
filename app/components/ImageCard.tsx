@@ -17,7 +17,7 @@ export default function ImageCard({
 }: ImageCardProps) {
   return (
     <motion.div
-      className="w-full lg:w-1/3 bg-blue-900 text-white p-6 rounded-lg shadow-md"
+      className="w-full lg:w-1/3 bg-[#34495E] text-white p-6 rounded-lg shadow-md"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
@@ -33,7 +33,7 @@ export default function ImageCard({
       <h3 className="text-xl font-bold mt-4">{title}</h3>
 
       {/* Red Underline */}
-      <div className="w-12 h-1 bg-red-500 mt-2 mb-4"></div>
+      <div className="w-12 h-1 bg-[#BE2D37] mt-2 mb-4"></div>
 
       {/* Text */}
       <p className="text-white leading-relaxed">{text}</p>
