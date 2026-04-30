@@ -1,7 +1,5 @@
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MissionSection from "@/components/MissionSection";
-import Footer from "@/components/Footer";
 import MissionVisionSection from "@/components/MissionVisionSection";
 import ServicesSection from "@/components/ServicesSection";
 import VideoTextSection from "@/components/VideoTextSection";
@@ -11,7 +9,6 @@ import ContactSection from "@/components/ContactSection";
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <MissionSection />
       <MissionVisionSection />
@@ -29,7 +26,6 @@ export default function Home() {
       />
       <CoreValuesSection />
       <ContactSection />
-      <Footer />
     </>
   );
 }
