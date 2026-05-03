@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section
@@ -20,9 +22,11 @@ export default function Hero() {
           blødningssituationer
         </p>
         <div className="flex items-center justify-center mt-6">
-          <button className="bg-[#BE2D37] text-white px-6 py-3 rounded-lg text-lg hover:bg-red-600">
+          <Link
+            href="/courses"
+            className="rounded-lg bg-[#BE2D37] px-6 py-3 text-lg text-white transition hover:bg-red-600">
             Hvem er vi?
-          </button>
+          </Link>
         </div>
       </div>
     </section>
