@@ -16,7 +16,7 @@ export default function MissionVisionSection() {
       <Card
         title="Vision"
         text="Blive den førende leverandør af kurser og udstyrspakker inden for håndtering af akutte blødninger i hele Danmark. Vi stræber efter at skabe et samfund, hvor alle erhverv, skoler og institutioner er udstyret med de nødvendige redskaber og viden til at reagere effektivt på blødningsnødsituationer. Vores kursus og salg af kits skal være en fast del af uddannelsespakker og onboardingprogrammer i store virksomheder, uddannelsesinstitutioner og sportsforeninger."
-        icon={<HeartPulse className="text-gray-900 w-10 h-10" />}
+        icon={<HeartPulse className="text-secondary w-10 h-10" />}
       />
     </section>
   );

@@ -24,7 +24,7 @@ export const TeamMemberCard = ({
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay }}>
-      <img src={image} alt={name} className="w-full h-64 object-cover" />
+      <img src={image} alt={name} className="w-full h-[75%] object-cover" />
       <div className="p-4 text-center">
         <FontAwesomeIcon icon={icon} className="text-primary text-3xl mb-2" />
         <h2 className="text-xl font-semibold">{name}</h2>

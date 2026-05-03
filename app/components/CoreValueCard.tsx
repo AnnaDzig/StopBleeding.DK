@@ -15,7 +15,7 @@ export default function CoreValueCard({
   imageSrc,
 }: CoreValueCardProps) {
   return (
-    <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
+    <div className="relative w-full h-full rounded-lg overflow-hidden shadow-lg">
       {/* Background Image */}
       <img
         src={imageSrc}

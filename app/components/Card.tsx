@@ -34,7 +34,7 @@ export default function Card({ title, text, icon, background }: CardProps) {
       {/* Text */}
       <p
         className={`mt-4 ${
-          background ? "text-white" : "text-[#ECF0F1]"
+          background ? "text-white" : "text-secondary"
         } leading-relaxed`}>
         {text}
       </p>
