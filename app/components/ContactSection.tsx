@@ -29,7 +29,7 @@ export default function ContactSection() {
           />
 
           {/* Vertical Divider */}
-          <div className="hidden md:block w-px bg-[#BE2D37] h-20"></div>
+          <div className="hidden md:block w-px bg-gray-300 h-20"></div>
 
           {/* Send Message */}
           <ContactCard
